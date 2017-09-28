@@ -1,6 +1,10 @@
 # Miscellaneous-Projects
 Miscellaneous projects in image processing, multi-threading, text mining, etc.
 
+Image Processing - Gaussian Blur
+
+• Program that applies Gaussian blurring to an image.  Here, instead of using box blur (2D kernel), we use an improved algorithm where we make 2 passes using a 1D kernel.  This brings the runtime down to O(width•height•radius), instead of radius^2.
+
 Call Center Simulation
 
 • A program that simulates a type of call center.  Uses multi-threading and semaphores.
