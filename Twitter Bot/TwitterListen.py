@@ -17,10 +17,10 @@ import pandas
 
 
 
-consumer_key = 'NCqKtAbivgRU279ExkotrD3HX'
-consumer_secret = 'cg55WPh3bRzBLvN7KlCR12be6yeLMnW9BEoybV7rDY5BXLtdKe'
-access_token = '3399277288-dHK8Ys1o5XogMloYgjZnUFOmWGYPQsncdbiSwqC'
-access_secret = 'xquqXiyN3YAgS45QbJ4g2boq6AAk7xnQj25ryvT9vgPRe'
+consumer_key = 'INSERT_YOURS'
+consumer_secret = 'INSERT_YOURS'
+access_token = 'INSERT_YOURS'
+access_secret = 'INSERT_YOURS'
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
